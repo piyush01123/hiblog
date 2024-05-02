@@ -2,13 +2,13 @@ title:              विवेचना
 email:              your-email@example.com
 description:        भारतीय परम्परा में विज्ञान और अध्यात्म की विवेचना
 author:             अन्वेषक
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+baseurl:            "/hiblog"
+url:                ""
 
 # Social Profiles
 twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+github_username:    piyush01123
+facebook_username:  piyush01123
 instagram_username:  
 linkedin_username:
 
