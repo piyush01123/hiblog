@@ -41,14 +41,17 @@ layout: default
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
           </a>
-          <p class="post-meta">Posted by
+          <p class="post-meta">लेखक:
             {% if post.author %}
             {{ post.author }}
             {% else %}
             {{ site.author }}
             {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+            &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+            दिनांक:
+            {{ post.date | date: '%d/%m/%Y' }} &middot; 
+            &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+            {% include read_time.html content=post.content %}            
           </p>
         </article>
 
